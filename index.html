@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Progimes, sebuah mini-game untuk menguji pengetahuan Anda tentang pemrograman.">
+    <meta name="theme-color" content="#2c3e50">
+    
+    <title>Kuis Koding Cepat</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="background-overlay"></div>
+
+    <main id="game-container">
+        <div id="loader" class="loader"></div>
+        <section id="quiz-content" class="hidden" aria-labelledby="quiz-title">
+            <h1 id="quiz-title" class="visually-hidden">Kuis Koding Cepat</h1>
+            
+            <h2 id="question-text" aria-live="polite"></h2>
+            
+            <div id="answers-container"></div>
+            
+            <div class="status-bar">
+                <p id="progress-text"></p>
+                <p id="score-display" aria-live="polite">Skor: 0</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dibuat oleh Muhammad Habib Rafi</p>
+    </footer>
+    
+    <script src="script.js" defer></script>
+
+</body>
+</html>
