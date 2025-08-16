@@ -9,7 +9,7 @@ Ini adalah mini-game yang saya buat sebagai proyek akhir untuk program **HACKTIV
 
 Penasaran gimana hasilnya? Langsung saja klik link di bawah ini untuk main.
 
-**[➡️ Klik di sini untuk bermain](https://www.google.com/search?q=https://LINK-DEPLOYMENT-ANDA)**
+**[➡️ Klik di sini untuk bermain](https://kuis-koding-cepat.netlify.app/)**
 
 
 ## ✨ Fitur Keren
@@ -35,7 +35,7 @@ Ingin coba-coba atau lihat kodenya? Gampang, kok.
 1.  **Clone repositori ini:**
 
     ```bash
-    git clone [URL-REPOSITORI-GITHUB-ANDA]
+    git clone https://github.com/mhmdhabibrafi/kuis-koding-cepat
     ```
 
 2.  **Masuk ke foldernya:**
@@ -71,4 +71,5 @@ Kode awal dari Granite memang berjalan, tapi belum memiliki fitur dan pengalaman
       - **Umpan Balik Visual**: Menambahkan perubahan warna pada tombol (hijau/merah) untuk memberi tahu pengguna jawabannya benar atau salah.
       - **Tombol "Mulai Lagi"**: Membuat fungsi `endGame` yang lebih baik dengan tombol untuk replayability.
       - **Desain Ulang Tampilan**: Mengubah CSS dasar menjadi desain *glassmorphism* yang modern dan responsif.
+
   - **Dampaknya:** Tahap ini mengubah aplikasi sederhana menjadi sebuah mini-game yang poles dan interaktif. Ini menunjukkan bahwa peran programmer sangat krusial dalam menyempurnakan, mengoptimalkan, dan memberikan "sentuhan manusia" pada kode yang dihasilkan oleh AI.
